@@ -1,0 +1,7 @@
+{
+  "name": "SolarApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -38,7 +38,7 @@ setTimeout(() => {
 }, 100)
 // this.percentage = 50;
 let xyz = this
-this.http.post('https://api.solarmanpv.com/station/v1.0/realTime?language=en', data, httpOptions).subscribe(response => {
+this.http.post(' https://ftivnmieuk.execute-api.eu-west-1.amazonaws.com/getBatteryLevel', data, httpOptions).subscribe(response => {
   console.log(JSON.stringify(response.body));
 let x: any = response.body
 console.log(x['batterySoc'])

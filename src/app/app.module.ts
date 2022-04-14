@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PercentageBarComponent } from './percentage-bar/percentage-bar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service';
+import { IonicModule } from '@ionic/angular';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CookieService } from 'ngx-cookie-service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    IonicModule.forRoot()
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]
